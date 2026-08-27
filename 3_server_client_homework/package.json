@@ -1,0 +1,16 @@
+{
+  "name": "3_server_client_homework",
+  "version": "1.0.0",
+  "description": "TCP Chat",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
