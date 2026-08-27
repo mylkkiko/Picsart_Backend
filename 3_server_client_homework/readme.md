@@ -21,8 +21,6 @@ It will ask for a username. It can't be empty and it can't be one that someone e
 
 Every message ends with `\n`.
 
-I needed this because TCP doesn't keep message boundaries — one `write()` on one side doesn't mean one `'data'` event on the other. Messages can stick together or arrive in pieces. So on both sides I keep a buffer: new data gets added to it, then I split it on `\n`. Everything except the last piece is a finished message, and the last piece stays in the buffer because it's probably the start of the next one.
-
 The function that does this is in `protocol.js`, and both the server and the client use it.
 
 If a message starts with `/`, it's a command. Otherwise it's sent to everyone except the person who wrote it.
