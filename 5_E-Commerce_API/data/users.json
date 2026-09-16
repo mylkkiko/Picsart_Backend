@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "username": "bob",
+    "passwordHash": "$2b$10$P77tJIn3w/xdlRFuJ4Qxv.VD3TUboXsUVlINEhuEaQquRr0dWlOhq",
+    "role": "costumer"
+  },
+  {
+    "id": 2,
+    "username": "James",
+    "passwordHash": "$2b$10$IxN9V9qw10NLa4XuOyrmGe8/o5rWmkL/N0bGN8XZrfGSpG8KbWUVy",
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "username": "Alice",
+    "passwordHash": "$2b$10$Av.gpeA9z6/2vZieAt3JRek5HwoakuKpjYT0q.0Cn9JeUq2RIC6RS",
+    "role": "admin"
+  }
+]

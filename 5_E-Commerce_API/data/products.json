@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "iphone",
+    "price": 200,
+    "category": "electronics",
+    "stock": 52
+  }
+]
