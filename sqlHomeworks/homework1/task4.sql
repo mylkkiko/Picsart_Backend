@@ -1,0 +1,5 @@
+-- SELECT title FROM books WHERE tags @> ARRAY['fiction'];
+-- CREATE INDEX ON books USING gin(tags);
+-- SET enable_seqscan = off;
+-- EXPLAIN ANALYZE SELECT title FROM books WHERE tags @> ARRAY['fiction'];
+-- SET enable_seqscan = on;
